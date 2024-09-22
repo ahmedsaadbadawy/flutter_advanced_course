@@ -7,12 +7,14 @@ import '../../../core/widgets/app_text_button.dart';
 import '../../../core/widgets/app_text_form_field.dart';
 import 'widgets/already_have_account_text.dart';
 import 'widgets/terms_and_conditions_text.dart';
+
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
+
 class _LoginScreenState extends State<LoginScreen> {
   final formKey = GlobalKey<FormState>();
   bool isObscureText = true;
